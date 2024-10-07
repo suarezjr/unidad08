@@ -1,0 +1,21 @@
+Entregable N°2:
+
+Deberás hacer entrega de tu proyecto donde aparezca: 
+
+1- Realizar una estructura avanzada de la web.
+
+2- Efectuar el estilo avanzado de la web. (GRILLAS + FLEXBOX + POSITION + BOX SIZING ...etc)
+
+3- Todas las páginas deben tener el contenido estructurado y el estilo linkeado.
+
+4- Usar Bootstrap + Grids o Flexbox o Ambas.
+
+5- Todas las pages tienen que ser RESPONSIVE.
+
+6 - Generar la carga en un repositorio en GitHub. (Incluyendo GitHub Pages).
+
+
+ACLARACIONES:
+1- Todos los archivos ordenados en carpetas. (INDENTADO Y SEMÁNTICA).
+2- En la raiz del proyecto solamente suelto el (index.html style.css).
+3- RECOMENDACIÓN, comentar toda estructura y parte del proyecto para no perderse.
