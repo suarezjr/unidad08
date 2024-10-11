@@ -9,8 +9,8 @@ for (let i = 0; i < 5; i++) {
     console.log(i);
   };
 
-  let nombre=prompt("Como te llamas?");
+//  let nombre=prompt("Como te llamas?");
 
-  alert(nombre);
+//  alert(nombre);
 
 
