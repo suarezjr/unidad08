@@ -26,18 +26,17 @@
     }
   
     .footer__links-copyright{
-        .footer__links-copyright h3 {
-            font-size: medium;
-          }
-          
           .footer__links-copyright h4 {
             font-size: small;
           }    
     }
     /*FOOTER REDES*/
-    .footer__redes .fa-brands {
-        margin-left: 15px;
-        font-size: 26px;
+    .footer__redes.fa-brands {
+      display: flex;  
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: 15px;
+        font-size: 30px;
     }
 
   }
