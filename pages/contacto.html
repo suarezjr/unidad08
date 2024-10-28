@@ -46,33 +46,47 @@
         <!--ESTRUCTURA 2 = MAIN-->    
         <main id="main">
 
-            <h3>Contacto</h3>
+             <section class="d-flex flex-wrap gap-2 flex-column flex-sm-column flex-md-row">   
 
-            <form id="form" caption="">
-                <iframe class="form__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9519.145664909425!2d-58.24380923764412!3d-32.48536170276857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afdb005dbc939d%3A0x3c8a23c6cb1334b2!2sConcepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1727651854011!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <section class="form__contacto">
-                    <input type="text" value="Nombre">
-                    <input type="email" value="Email">
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Donde nos encontramos</h5>
+                        <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9519.145664909425!2d-58.24380923764412!3d-32.48536170276857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95afdb005dbc939d%3A0x3c8a23c6cb1334b2!2sConcepci%C3%B3n%20del%20Uruguay%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1727651854011!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Contacte con Nosotros</h5>
+                        <form caption="Formulario de Contacto">
+                            <section>
+                                <input class="form__contacto-nombre p-2" type="text" value="Nombre">
+                                <input class="form__contacto-email p-2" type="email" value="Email">
+                            
+                                <article class="form__contacto-tipo p-2">
+                                    <label for="tipo-consulta">Usted consulta por: </label>
+                                    <select name="tipo" id="taller">
+                                        <option value="productos">Productos</option>
+                                        <option value="servicios">Servicios</option>
+                                        <option value="otros">Otros</option>
+                                    </select>
+                                </article>
+                                
+                                <textarea class="form__contacto-textarea p-2" name="" id=""></textarea>
+        
+                                <article>
+                                    <input type="submit" class="btn btn-success">
+                                    <input type="reset" class="btn btn-secondary">
+                                </article>
+                            </section>
+                        </form>
+                </div>
+                    
+                </div>
+
+
                 
-                    <article class="form__contacto-tipo">
-                        <label for="tipo-consulta">Usted consulta por: </label>
-                        <select name="tipo" id="taller">
-                            <option value="productos">Productos</option>
-                            <option value="servicios">Servicios</option>
-                            <option value="otros">Otros</option>
-                        </select>
-                    </article>
-                    
-                    <textarea class="form__contacto-textarea" name="" id=""></textarea>
-
-                    <article class="form__contacto-buttons">
-                        <input type="submit" class="btn btn-success">
-                        <input type="reset" class="btn btn-secondary">
-                    </article>
-                    
-                </section>
-            </form>
-            
+             </section> 
         </main>
 
         <!--ESTRUCTURA°3 = FOOTER-->

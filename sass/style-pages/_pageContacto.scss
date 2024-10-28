@@ -2,27 +2,21 @@
 /*FORM CONTACTO*/
 #form {
     display: flex;
-    width: 80%;
+    width: 100%;
     height: auto;
-    justify-content: space-between;
 }
 
-.form__mapa {
-    width: 50%;
+.form__contacto-nombre {
+    width: 100%;
 }
 
-.form__contacto {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding-left: 100px;
-    gap: 30px;
+.form__contacto-email {
+    width: 100%;
 }
 
 .form__contacto-contcheck {
     display: flex;
     justify-content: space-around;
-
 }
 
 .form__contacto-tipo {
@@ -31,10 +25,12 @@
 }
 
 .form__contacto-textarea {
+    width: 100%;
     resize: vertical;
 }
 
 .form__contacto-buttons {
-    display: flex;
-    justify-content: space-around;
+    //display: flex;
+    padding: 2px;
+    justify-content: space-between;
 }

@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
+        <meta name="keywords" content="mascotas, petshop, perros, gatos">        
+
         <!--LIBRERÍA FONT AWESOME/ICONS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
@@ -47,54 +49,59 @@
         <!--ESTRUCTURA°2 = MAIN-->    
         <main id="main">
 
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Imagen</th>
-                    <th scope="col">Producto</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Opciones</th> 
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row"><picture class="img1"><img src="../images/page-productos/1.png" alt=""></picture></th>
-                    <td>Peine Secador Cepillo Pelo Perro Gato Mascota 2 En 1 Color Blanco</td>
-                    <td>$ 35.000</td>
-                    <td>
-                        <button type="button" class="btn btn-primary">Ver detalle</button>
-                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><picture class="img1"><img src="../images/page-productos/2.png" alt=""></picture></th>
-                    <td>Colchon Colchoneta Cama Cordura Antidesgarro Perros Mascotas</td>
-                    <td>$ 45.000</td>
-                    <td>
-                        <button type="button" class="btn btn-primary">Ver detalle</button>
-                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><picture class="img1"><img src="../images/page-productos/3.png" alt=""></picture></th>
-                    <td>Corral Para Mascotas 200 X 100 X 62 -perros-gatos-conejos</td>
-                    <td>$ 75.500</td>
-                    <td>
-                        <button type="button" class="btn btn-primary">Ver detalle</button>
-                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><picture class="img1"><img src="../images/page-productos/4.png" alt=""></picture></th>
-                    <td>Cepillo Guante True Touch Mascotas Sacapelos Y Masajeador</td>
-                    <td>$ 3.000</td>
-                    <td>
-                        <button type="button" class="btn btn-primary">Ver detalle</button>
-                        <button type="button" class="btn btn-success">Agregar a Carrito</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <section class="d-flex flex-wrap gap-2 pt-2 flex-column flex-sm-column flex-md-row">  
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/page-productos/1.png" class="card-img-top" alt="peine">
+                    <div class="card-body">
+                        <h5 class="card-title">Peine Secador</h5>
+                        <p class="card-text">Peine Secador Cepillo Pelo Perro Gato Mascota 2 En 1 Color Blanco</p>
+                        <p class="card-text">$ 35.000</p>
+                        <td>
+                            <button type="button" class="btn btn-primary">Ver detalle</button>
+                            <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                        </td>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/page-productos/2.png" class="card-img-top" alt="colchoneta">
+                    <div class="card-body">
+                        <h5 class="card-title">Colchoneta</h5>
+                        <p class="card-text">Colchon Colchoneta Cama Cordura Antidesgarro Perros Mascotas.</p>
+                        <p class="card-text">$ 45.000</p>
+                        <td>
+                            <button type="button" class="btn btn-primary">Ver detalle</button>
+                            <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                        </td>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/page-productos/3.png" class="card-img-top" alt="peluqueria">
+                    <div class="card-body">
+                        <h5 class="card-title">Corral</h5>
+                        <p class="card-text">Corral Para Mascotas 200 X 100 X 62 -perros-gatos-conejos.</p>
+                        <p class="card-text">$ 75.500</p>
+                        <td>
+                            <button type="button" class="btn btn-primary">Ver detalle</button>
+                            <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                        </td>
+                    </div>
+                </div>
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="../images/page-productos/4.png" class="card-img-top" alt="guante">
+                    <div class="card-body">
+                        <h5 class="card-title">Cepillo Guante</h5>
+                        <p class="card-text">Cepillo Guante True Touch Mascotas Sacapelos Y Masajeador.</p>
+                        <p class="card-text">$ 5.000</p>
+                        <td>
+                            <button type="button" class="btn btn-primary">Ver detalle</button>
+                            <button type="button" class="btn btn-success">Agregar a Carrito</button>
+                        </td>
+                    </div>
+                </div>
+            </section>
 
         </main>
 
