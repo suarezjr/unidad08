@@ -1,9 +1,8 @@
 /* aca pongo los estilos de la web contacto */
-/*FORM CONTACTO*/
+/*** FORM CONTACTO ***/
 #form {
     display: flex;
-    width: 100%;
-    height: auto;
+    width: 100%;  
 }
 
 .form__contacto-nombre {
@@ -12,11 +11,6 @@
 
 .form__contacto-email {
     width: 100%;
-}
-
-.form__contacto-contcheck {
-    display: flex;
-    justify-content: space-around;
 }
 
 .form__contacto-tipo {
@@ -30,7 +24,6 @@
 }
 
 .form__contacto-buttons {
-    //display: flex;
     padding: 2px;
     justify-content: space-between;
 }

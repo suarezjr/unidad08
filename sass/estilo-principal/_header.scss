@@ -1,9 +1,8 @@
-/*ESTILOS NAVBAR BTS*/
+/*** ESTILOS NAVBAR BTS ***/
 #navBar {
-    /*max-width: 1400px; lo comente para que tome el ancho del body */
     background-image: linear-gradient(to right, lightblue, orange);
     position: fixed;
-    z-index: 80;
+    z-index: 1;
     height: 90px;
 }
 

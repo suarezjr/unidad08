@@ -30,12 +30,11 @@ a {
   align-items: center;
 }
 
-/*ESTILOS NAVBAR BTS*/
+/*** ESTILOS NAVBAR BTS ***/
 #navBar {
-  /*max-width: 1400px; lo comente para que tome el ancho del body */
   background-image: linear-gradient(to right, lightblue, orange);
   position: fixed;
-  z-index: 80;
+  z-index: 1;
   height: 90px;
 }
 
@@ -82,12 +81,12 @@ cuando pasa el mouse por encima */
   width: 200px;
 }
 
-/*SECCIÓN INICIO 1*/
+/** SECCIÓN INICIO 1 ***/
 .inicio__contenido1-h1, .inicio__contenido1-h2 {
   text-align: center;
 }
 
-/*SECCIÓN INICIO 2*/
+/*** SECCIÓN INICIO 2 ***/
 .inicio__contenido2 {
   display: flex;
   align-items: center;
@@ -101,46 +100,26 @@ cuando pasa el mouse por encima */
 
 /*ESTILOS PARA EL FOOTER*/
 #footer {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: auto;
   margin-top: auto;
-  background-color: whitesmoke;
+  background-image: linear-gradient(to right, lightblue, orange);
+}
+
+.footer__redes {
   display: flex;
-  justify-content: space-around;
+  width: 25%;
+  justify-content: space-between;
   align-items: center;
-  /*FOOTER LOGO*/
-  /*FOOTER LINKS*/
-  /*FOOTER REDES*/
-}
-#footer .footer__logo-pictureimg {
-  width: 150px;
-}
-#footer .footer__links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-#footer .footer__links .footer__links-ul {
-  padding: 0;
-}
-#footer .footer__links-copyright .footer__links-copyright h4 {
-  font-size: small;
-}
-#footer .footer__redes.fa-brands {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 15px;
-  font-size: 30px;
+  padding: 10px;
 }
 
 /* aca pongo los estilos de la web contacto */
-/*FORM CONTACTO*/
+/*** FORM CONTACTO ***/
 #form {
   display: flex;
   width: 100%;
-  height: auto;
 }
 
 .form__contacto-nombre {
@@ -149,11 +128,6 @@ cuando pasa el mouse por encima */
 
 .form__contacto-email {
   width: 100%;
-}
-
-.form__contacto-contcheck {
-  display: flex;
-  justify-content: space-around;
 }
 
 .form__contacto-tipo {

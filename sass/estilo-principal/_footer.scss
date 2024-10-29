@@ -1,48 +1,17 @@
 /*ESTILOS PARA EL FOOTER*/
 #footer {
-    width: 100%;
-    height: auto;
-    margin-top: auto;
-    background-color: whitesmoke;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /*FOOTER LOGO*/
-    
-    .footer__logo-pictureimg {
-        width: 150px;
-    } 
-  
-    /*FOOTER LINKS*/
-    .footer__links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        .footer__links-ul {
-            padding: 0;
-          }
-          
-    }
-  
-    .footer__links-copyright{
-          .footer__links-copyright h4 {
-            font-size: small;
-          }    
-    }
-    /*FOOTER REDES*/
-    .footer__redes.fa-brands {
-      display: flex;  
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin-left: 15px;
-        font-size: 30px;
-    }
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+    background-image: linear-gradient(to right, lightblue, orange);
+}
 
-  }
-  
-  
-  
-  
-  
-    
+.footer__redes{
+  display: flex;  
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
